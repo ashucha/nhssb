@@ -4,4 +4,13 @@ body {
 
 .navbar {
     background: #2980B9;
+    border-bottom: 7px solid #216A99;
+}
+
+.spacer {
+    height: 10.414883885%;
+}
+
+.card {
+    width: 33.3%;
 }

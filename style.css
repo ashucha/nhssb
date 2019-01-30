@@ -13,4 +13,21 @@ body {
 
 .card {
     width: 33.3%;
+    color: #000;
+    transition: 0.15s;
+    border-color: rgba(0,0,0,.05);
+}
+
+.card:hover {
+    text-decoration: none;
+    border-color: transparent;
+    color: #000;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.075) !important;
+    transition: 0.15s;
+}
+
+.card:active {
+    box-shadow: none !important;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,.075) !important;
+    transition: 0.15s;
 }
